@@ -1,0 +1,39 @@
+body{
+    background: radial-gradient(transparent, #175961);
+}
+
+.container{
+    text-align: center;
+   
+}
+
+.calc{
+    text-align: -webkit-center;
+    background:#000;
+    box-sizing: border-box;
+    display: inline-grid;
+    padding: 40px;
+    box-shadow: 0px 24px 56px 6px;
+}
+
+input{
+    font-size: 55px;
+    padding: 60px 50px;
+    text-align: right;
+    background: #c3c019;
+}
+
+button{
+    font-size: 20px;
+    padding: 15px;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+    background: #8f8686;
+}
+
+button:hover{
+    background: rgba(191,191,191, 0.3);
+    color: white;
+}
